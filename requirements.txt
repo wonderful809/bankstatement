@@ -1,0 +1,28 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.5
+pdfplumber==0.8.0
+pytesseract==0.3.10
+pdf2image==1.16.3
+Pillow==12.0.0
+gunicorn==20.1.0
+pytest==7.4.0
+Flask-Limiter==3.3.1
+werkzeug==3.1.3
+python-dotenv==1.0.0
+
+# Production Performance - CRITICAL FOR MILLIONS OF USERS
+gevent==23.9.1                  # Async workers (2000 connections per worker)
+redis==5.0.1                    # Caching layer (100K ops/sec)
+Flask-Caching==2.1.0            # Response caching middleware
+celery==5.3.4                   # Background task processing
+psycopg2-binary==2.9.9          # PostgreSQL driver
+
+# Monitoring & Error Tracking
+sentry-sdk[flask]==1.39.2       # Error tracking and performance monitoring
+
+# Response Compression
+Flask-Compress==1.14            # Gzip compression (80% bandwidth reduction)
+
+# Additional Performance Tools
+eventlet==0.33.3                # Alternative async library
+greenlet==3.0.1                 # Lightweight concurrent programming

@@ -1,0 +1,1368 @@
+2025-10-18 18:51:31,521 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 18:51:31,521 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 18:51:31,524 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 18:51:32,839 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 18:51:32,842 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 18:51:58,423 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:51:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:52:28,420 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:52:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:52:58,410 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:52:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:53:28,412 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:53:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:53:58,407 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:53:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:54:28,409 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:54:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:54:58,399 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:54:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:55:28,402 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:55:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:55:58,408 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:55:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:56:28,401 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:56:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:56:58,409 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:56:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:57:28,403 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:57:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:57:58,404 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:57:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:58:28,407 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:58:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:58:58,408 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:58:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:59:28,408 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:59:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 18:59:58,409 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 18:59:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:00:28,391 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:00:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:00:58,401 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:00:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:01:02,519 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:01:02] "GET /?id=a6ccfc1f-64ba-496b-988c-5071b1e731a1&vscodeBrowserReqId=1760794262414 HTTP/1.1" 200 -
+2025-10-18 19:01:02,614 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:01:02] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 19:01:02,687 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:01:02] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-18 19:01:32,736 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:01:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:01:36,149 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 2, Size: 183623 bytes)
+2025-10-18 19:01:40,012 - app_saas - INFO - Conversion successful (ID: 2, Type: ocr, Rows: 41, Time: 3.85s, Confidence: 25.0%)
+2025-10-18 19:01:40,129 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:01:40] "POST /convert HTTP/1.1" 200 -
+2025-10-18 19:01:40,146 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\gadip\OneDrive\Documents\MERN\bankstatement converter\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\gadip\OneDrive\Documents\MERN\bankstatement converter\venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+    ~~~~~^^^^^^
+  File "C:\Users\gadip\OneDrive\Documents\MERN\bankstatement converter\venv\Lib\site-packages\werkzeug\serving.py", line 274, in write
+    self.send_header(key, value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\gadip\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 526, in send_header
+    ("%s: %s\r\n" % (keyword, value)).encode('latin-1', 'strict'))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u274c' in position 19: ordinal not in range(256)
+2025-10-18 19:02:02,735 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:02:32,744 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:02:32,921 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:32] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 19:02:56,449 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:56] "GET / HTTP/1.1" 200 -
+2025-10-18 19:02:56,649 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:56] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 19:02:56,665 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:56] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-18 19:02:57,536 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:02:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-18 19:03:02,735 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:03:09,132 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:09] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 19:03:09,169 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-18 19:03:10,043 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 3, Size: 183623 bytes)
+2025-10-18 19:03:14,025 - app_saas - INFO - Conversion successful (ID: 3, Type: ocr, Rows: 41, Time: 3.96s, Confidence: 25.0%)
+2025-10-18 19:03:14,032 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:14] "POST /convert HTTP/1.1" 200 -
+2025-10-18 19:03:14,038 - werkzeug - ERROR - Error on request:
+Traceback (most recent call last):
+  File "C:\Users\gadip\OneDrive\Documents\MERN\bankstatement converter\venv\Lib\site-packages\werkzeug\serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\gadip\OneDrive\Documents\MERN\bankstatement converter\venv\Lib\site-packages\werkzeug\serving.py", line 334, in execute
+    write(data)
+    ~~~~~^^^^^^
+  File "C:\Users\gadip\OneDrive\Documents\MERN\bankstatement converter\venv\Lib\site-packages\werkzeug\serving.py", line 274, in write
+    self.send_header(key, value)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\gadip\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 526, in send_header
+    ("%s: %s\r\n" % (keyword, value)).encode('latin-1', 'strict'))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u274c' in position 19: ordinal not in range(256)
+2025-10-18 19:03:27,237 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:03:32,745 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:03:57,961 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:03:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:04:02,739 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:04:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:04:27,969 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:04:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:04:32,738 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:04:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:04:37,721 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\processor_enhanced.py', reloading
+2025-10-18 19:04:38,119 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:04:39,446 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:04:39,448 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:04:42,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\processor_enhanced.py', reloading
+2025-10-18 19:04:42,848 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:04:44,197 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:04:44,199 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:04:47,257 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-18 19:04:47,559 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:04:48,952 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:04:48,954 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:04:57,986 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:04:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:05:01,118 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-18 19:05:01,451 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:05:02,873 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:05:02,877 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:05:02,948 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:05:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:05:07,986 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-18 19:05:08,316 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:05:09,712 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:05:09,715 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:05:13,800 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-18 19:05:14,160 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:05:15,529 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:05:15,532 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:05:27,969 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:05:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:05:32,744 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:05:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:05:36,815 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-18 19:05:37,147 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:05:38,568 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:05:38,571 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:05:57,982 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:05:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:06:02,733 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:06:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:06:32,742 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:06:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:07:02,729 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:07:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:07:07,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:07:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:07:32,740 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:07:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:08:02,730 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:08:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:08:07,974 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:08:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:08:32,729 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:08:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:35:15,583 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 19:35:15,583 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 19:35:15,585 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:35:16,745 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:35:16,748 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:35:35,991 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:35:35] "GET /?id=a6ccfc1f-64ba-496b-988c-5071b1e731a1&vscodeBrowserReqId=1760796335872 HTTP/1.1" 200 -
+2025-10-18 19:35:36,082 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:35:36] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 19:35:36,108 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:35:36] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 19:35:47,962 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:35:47] "GET / HTTP/1.1" 200 -
+2025-10-18 19:35:48,043 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:35:48] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 19:35:48,055 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:35:48] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 19:36:06,157 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:36:11,063 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 4, Size: 183623 bytes)
+2025-10-18 19:36:16,256 - app_saas - INFO - Conversion successful (ID: 4, Type: ocr, Rows: 41, Time: 5.19s, Confidence: 25.0%)
+2025-10-18 19:36:16,257 - app_saas - INFO - Quality Report: Low quality (25.0%) - Extraction may be unreliable - Complete rows: 0/64
+2025-10-18 19:36:16,273 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:16] "POST /convert HTTP/1.1" 200 -
+2025-10-18 19:36:17,293 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:17] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:36:18,827 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:18] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:36:36,146 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:36:48,828 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:48] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:36:51,031 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:51] "DELETE /api/delete/3 HTTP/1.1" 200 -
+2025-10-18 19:36:51,048 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:36:51] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:37:02,138 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:02] "GET / HTTP/1.1" 200 -
+2025-10-18 19:37:02,204 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:02] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 19:37:02,228 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:02] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 19:37:06,140 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:37:11,157 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 5, Size: 183623 bytes)
+2025-10-18 19:37:14,889 - app_saas - INFO - Conversion successful (ID: 5, Type: ocr, Rows: 41, Time: 3.71s, Confidence: 25.0%)
+2025-10-18 19:37:14,889 - app_saas - INFO - Quality Report: Low quality (25.0%) - Extraction may be unreliable - Complete rows: 0/64
+2025-10-18 19:37:14,892 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:14] "POST /convert HTTP/1.1" 200 -
+2025-10-18 19:37:15,909 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:15] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:37:32,610 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:37:36,167 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:37:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:38:02,969 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:38:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:38:06,157 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:38:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:38:32,968 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:38:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:38:36,140 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:38:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:39:02,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:39:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:39:06,139 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:39:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:39:32,965 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:39:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:39:36,163 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:39:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:40:02,964 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:40:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:40:06,158 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:40:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:40:13,265 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\processor_enhanced.py', reloading
+2025-10-18 19:40:13,584 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:40:14,909 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:40:14,913 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:40:36,169 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:40:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:40:43,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\processor_enhanced.py', reloading
+2025-10-18 19:40:43,604 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:40:44,748 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:40:44,750 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:41:06,191 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:41:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:41:07,969 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:41:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:41:16,313 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\processor_enhanced.py', reloading
+2025-10-18 19:41:16,542 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:41:17,785 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:41:17,790 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:41:36,185 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:41:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:42:02,396 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:42:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:42:06,138 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:42:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:42:32,961 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:42:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:42:36,149 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:42:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:52:44,682 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 19:52:44,682 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 19:52:44,685 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 19:52:45,834 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 19:52:45,837 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 19:53:06,183 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:53:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:53:36,161 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:53:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:54:06,163 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:54:06] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:54:36,152 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:54:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 19:54:47,400 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:54:47] "GET / HTTP/1.1" 200 -
+2025-10-18 19:54:47,539 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:54:47] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 19:54:47,576 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 19:54:47] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 20:01:15,389 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 20:01:15,390 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 20:01:15,393 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 20:01:16,476 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 20:01:16,479 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 20:01:27,607 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:01:27] "GET /?id=a6ccfc1f-64ba-496b-988c-5071b1e731a1&vscodeBrowserReqId=1760797887483 HTTP/1.1" 200 -
+2025-10-18 20:01:27,682 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:01:27] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 20:01:27,684 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:01:27] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 20:01:57,739 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:01:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:02:07,976 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:02:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:02:27,734 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:02:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:02:57,714 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:02:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:07,965 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:12,139 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:12] "GET / HTTP/1.1" 200 -
+2025-10-18 20:03:12,250 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:12] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 20:03:12,268 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:12] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 20:03:27,711 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:37,420 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:37] "DELETE /api/delete/5 HTTP/1.1" 200 -
+2025-10-18 20:03:37,442 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:37] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:39,735 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:39] "DELETE /api/delete/4 HTTP/1.1" 200 -
+2025-10-18 20:03:39,756 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:39] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:43,291 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:43] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:52,088 - app_saas - INFO - Cleaned up old file: 5d601a3c3c414e6cbc959752481ec433_dummy_statement.pdf
+2025-10-18 20:03:52,091 - app_saas - INFO - Cleaned up old file: d9fcf161610a4d3a816e77a18b4a568e_dummy_statement.pdf
+2025-10-18 20:03:52,195 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 3, Size: 183623 bytes)
+2025-10-18 20:03:56,122 - app_saas - INFO - Conversion successful (ID: 3, Type: ocr, Rows: 41, Time: 3.91s, Confidence: 25.0%)
+2025-10-18 20:03:56,123 - app_saas - INFO - Quality Report: Low quality (25.0%) - Extraction may be unreliable - Complete rows: 0/64
+2025-10-18 20:03:56,138 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:56] "POST /convert HTTP/1.1" 200 -
+2025-10-18 20:03:57,158 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:03:57,713 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:03:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:04:07,966 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:04:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:04:13,300 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:04:13] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:04:27,714 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:04:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:04:43,972 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:04:43] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:04:57,715 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:04:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:05:07,972 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:05:13,965 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:13] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:05:27,718 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:05:39,641 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:39] "GET /pricing HTTP/1.1" 200 -
+2025-10-18 20:05:39,721 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:39] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 20:05:39,737 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:39] "GET /static/pricing.css HTTP/1.1" 200 -
+2025-10-18 20:05:39,827 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:39] "GET /static/pricing.js HTTP/1.1" 200 -
+2025-10-18 20:05:57,706 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:05:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:06:07,972 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:06:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:06:27,712 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:06:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:06:57,727 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:06:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:07:07,966 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:07:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:07:27,728 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:07:27] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:07:51,800 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:07:51] "GET /?checkout=success HTTP/1.1" 200 -
+2025-10-18 20:07:51,869 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:07:51] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 20:07:51,897 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:07:51] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 20:07:57,733 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:07:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:08:07,968 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:08:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:16:45,947 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 20:16:45,947 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 20:16:45,950 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 20:16:47,232 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 20:16:47,236 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 20:16:57,758 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:16:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:17:02,071 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:17:02] "GET /?id=a6ccfc1f-64ba-496b-988c-5071b1e731a1&vscodeBrowserReqId=1760798821977 HTTP/1.1" 200 -
+2025-10-18 20:17:02,141 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:17:02] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 20:17:02,142 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:17:02] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 20:17:07,981 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:17:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:17:07,994 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:17:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:17:32,218 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:17:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:18:02,217 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:18:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:18:07,969 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:18:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:18:07,984 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:18:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:18:32,193 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:18:32] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:30:01,232 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 20:30:01,233 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 20:30:01,235 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 20:30:02,418 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 20:30:02,421 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 20:30:02,447 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:30:02,485 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:30:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:30:07,967 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:30:07,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:30:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:30:07,979 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:30:07,986 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:30:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:30:31,588 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-18 20:30:31,687 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:30:31] "GET /?id=a6ccfc1f-64ba-496b-988c-5071b1e731a1&vscodeBrowserReqId=1760799631576 HTTP/1.1" 200 -
+2025-10-18 20:31:07,978 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:31:07,991 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:31:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:31:07,997 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:31:08,009 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:31:08] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:32:07,977 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:32:07,990 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:32:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:32:07,996 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:32:08,007 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:32:08] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:33:07,976 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:33:07,988 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:33:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:33:07,995 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:33:08,006 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:33:08] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:34:07,978 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:34:07,988 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:34:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:34:07,995 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:34:08,006 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:34:08] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:35:07,960 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:35:07,970 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:35:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:35:07,980 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:35:07,990 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:35:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:36:07,972 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:36:07,982 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:36:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:36:07,991 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:36:08,001 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:36:08] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:36:43,609 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-18 20:36:43,630 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:36:43] "GET / HTTP/1.1" 200 -
+2025-10-18 20:36:43,712 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-18 20:36:43,720 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-18 20:36:43,823 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:36:43] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 20:36:43,881 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:36:43] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-18 20:36:45,199 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:36:45,211 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:36:45] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:37:07,966 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:37:07,978 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:37:14,907 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:37:14,912 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:14] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:37:40,934 - app_saas - INFO - DELETE /api/delete/3 from 127.0.0.1
+2025-10-18 20:37:40,979 - app_saas - INFO - Conversion 3 deleted by user 48
+2025-10-18 20:37:40,980 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:40] "DELETE /api/delete/3 HTTP/1.1" 200 -
+2025-10-18 20:37:40,995 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:37:41,018 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:41] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:37:44,902 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:37:44,908 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:44] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:37:57,130 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-18 20:37:57,140 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:57] "GET /pricing HTTP/1.1" 200 -
+2025-10-18 20:37:57,239 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-18 20:37:57,248 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-18 20:37:57,249 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:57] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 20:37:57,257 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-18 20:37:57,262 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:57] "[36mGET /static/pricing.css HTTP/1.1[0m" 304 -
+2025-10-18 20:37:57,267 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:37:57] "[36mGET /static/pricing.js HTTP/1.1[0m" 304 -
+2025-10-18 20:38:07,966 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:38:07,973 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:38:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:39:07,961 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:39:07,967 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:39:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:40:07,963 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:40:07,970 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:40:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:41:11,479 - app_saas - INFO - Cleaned up old file: 4dbfc2575d5f4d8fb80b6089b610dfad_dummy_statement.pdf
+2025-10-18 20:41:11,481 - app_saas - INFO - Cleaned up old file: 74d3d4e6d5a044e9b18185db56fe6f2e_dummy_statement.pdf
+2025-10-18 20:41:11,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-18 20:41:11,528 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-18 20:41:11,531 - werkzeug - INFO -  * Restarting with stat
+2025-10-18 20:41:12,717 - werkzeug - WARNING -  * Debugger is active!
+2025-10-18 20:41:12,719 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-18 20:41:40,565 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-18 20:41:40,672 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:41:40] "GET /?id=a6ccfc1f-64ba-496b-988c-5071b1e731a1&vscodeBrowserReqId=1760800300553 HTTP/1.1" 200 -
+2025-10-18 20:42:07,963 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:42:07,974 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:42:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:43:07,965 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:43:07,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:43:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:44:07,966 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:44:07,973 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:44:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:45:07,967 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:45:07,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:45:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:57:20,561 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:57:20,573 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:57:20] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:57:33,901 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-18 20:57:33,975 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:57:33] "GET /pricing HTTP/1.1" 200 -
+2025-10-18 20:57:34,032 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-18 20:57:34,037 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-18 20:57:34,041 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-18 20:57:34,116 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:57:34] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-18 20:57:34,127 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:57:34] "[36mGET /static/pricing.css HTTP/1.1[0m" 304 -
+2025-10-18 20:57:34,132 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:57:34] "[36mGET /static/pricing.js HTTP/1.1[0m" 304 -
+2025-10-18 20:58:07,954 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-18 20:58:07,960 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-18 20:58:14,465 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-18 20:58:14,475 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:14] "GET / HTTP/1.1" 200 -
+2025-10-18 20:58:14,539 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-18 20:58:14,551 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:14] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 20:58:14,557 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-18 20:58:14,569 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:14] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-18 20:58:17,689 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-18 20:58:17,691 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:17] "GET /pricing HTTP/1.1" 200 -
+2025-10-18 20:58:17,751 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-18 20:58:17,755 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:17] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 20:58:17,761 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-18 20:58:17,763 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-18 20:58:17,773 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:17] "[36mGET /static/pricing.css HTTP/1.1[0m" 304 -
+2025-10-18 20:58:17,777 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:17] "[36mGET /static/pricing.js HTTP/1.1[0m" 304 -
+2025-10-18 20:58:22,332 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-18 20:58:22,339 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:22] "GET / HTTP/1.1" 200 -
+2025-10-18 20:58:22,409 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-18 20:58:22,419 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-18 20:58:22,419 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:22] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-18 20:58:22,423 - werkzeug - INFO - 127.0.0.1 - - [18/Oct/2025 20:58:22] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 06:38:38,550 - app_saas - INFO - Cleaned up old file: b5e351a5870044d99850d86d4c02455a_dummy_statement.pdf
+2025-10-19 06:38:38,613 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-19 06:38:38,614 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 06:38:38,616 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 06:38:39,715 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 06:38:39,718 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 06:38:43,446 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 06:38:43,519 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:38:43] "GET / HTTP/1.1" 200 -
+2025-10-19 06:38:43,600 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 06:38:43,645 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 06:38:43,669 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:38:43] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 06:38:43,717 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:38:43] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 06:38:45,144 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 06:38:45,145 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:38:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 06:38:49,608 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 06:38:49,625 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:38:49] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760836129590 HTTP/1.1" 200 -
+2025-10-19 06:39:05,523 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 06:39:05,540 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:39:05] "GET / HTTP/1.1" 200 -
+2025-10-19 06:39:05,641 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 06:39:05,648 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:39:05] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 06:39:05,664 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 06:39:05,670 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:39:05] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 06:39:07,071 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 06:39:07,072 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:39:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 06:39:36,532 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:39:36,536 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:39:36] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:40:07,187 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:40:07,191 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:40:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:40:37,186 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:40:37,191 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:40:37] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:41:07,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:41:07,201 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:41:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:41:37,191 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:41:37,197 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:41:37] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:42:07,191 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:42:07,197 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:42:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:43:05,192 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:43:05,201 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:43:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:44:05,193 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:44:05,201 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:44:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:45:05,196 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:45:05,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:45:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:46:05,201 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:46:05,210 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:46:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:47:05,193 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:47:05,200 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:47:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:48:05,191 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:48:05,199 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:48:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:49:05,203 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:49:05,213 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:49:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:50:05,205 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:50:05,214 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:50:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:51:05,192 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:51:05,198 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:51:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:52:05,194 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:52:05,199 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:52:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:53:05,205 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:53:05,214 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:53:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:54:05,205 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:54:05,219 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:54:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:54:51,122 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:54:51,138 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:54:51] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:55:07,185 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:55:07,190 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:55:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:55:37,224 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:55:37,233 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:55:37] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:57:05,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:57:05,201 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:57:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:58:05,199 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:58:05,203 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:58:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 06:59:05,186 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 06:59:05,191 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 06:59:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:00:05,183 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:00:05,188 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:00:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:01:05,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:01:05,200 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:01:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:02:05,189 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:02:05,196 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:02:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:03:05,198 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:03:05,202 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:03:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:04:05,198 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:04:05,205 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:04:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:05:05,200 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:05:05,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:05:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:06:05,193 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:06:05,199 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:06:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:07:25,397 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:07:25,411 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:07:25] "GET / HTTP/1.1" 200 -
+2025-10-19 07:07:25,489 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:07:25,495 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:07:25,495 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:07:25] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:07:25,502 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:07:25] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:07:26,606 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:07:26,607 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:07:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:07:56,095 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:07:56,103 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:07:56] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:08:26,202 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:08:26,209 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:08:26] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:08:56,202 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:08:56,208 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:08:56] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:09:19,511 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:09:19,950 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:09:21,384 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:09:21,386 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:09:23,439 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:09:23,783 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:09:25,195 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:09:25,198 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:09:26,187 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:09:26,207 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:09:26] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:09:56,192 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:09:56,200 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:09:56] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:10:26,192 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:10:26,201 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:10:26] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:10:30,186 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:10:30,535 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:10:31,861 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:10:31,864 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:10:49,938 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-19 07:10:49,939 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:10:49,941 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:10:51,122 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:10:51,124 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:11:00,605 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:11:00,705 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:11:00] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838060594 HTTP/1.1" 200 -
+2025-10-19 07:11:05,207 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:11:05,219 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:11:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:12:05,196 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:12:05,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:12:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:13:05,196 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:13:05,204 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:13:26,095 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:13:26,123 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:26] "GET / HTTP/1.1" 200 -
+2025-10-19 07:13:26,225 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:13:26,245 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:13:26,290 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:26] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:13:26,500 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:26] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-19 07:13:27,986 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:13:27,989 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:13:42,577 - app_saas - INFO - POST /convert from 127.0.0.1
+2025-10-19 07:13:42,682 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 3, Size: 183623 bytes)
+2025-10-19 07:13:46,925 - app_saas - INFO - Conversion successful (ID: 3, Type: ocr, Rows: 41, Time: 4.24s, Confidence: 25.0%)
+2025-10-19 07:13:46,925 - app_saas - INFO - Quality Report: Low quality (25.0%) - Extraction may be unreliable - Complete rows: 0/64
+2025-10-19 07:13:46,929 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:46] "POST /convert HTTP/1.1" 200 -
+2025-10-19 07:13:47,944 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:13:47,948 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:47] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:13:54,831 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:13:54,845 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:54] "GET / HTTP/1.1" 200 -
+2025-10-19 07:13:54,925 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:13:54,928 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:13:54,931 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:54] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:13:54,937 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:54] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:13:55,419 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:13:55,421 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:13:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:14:13,264 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:14:13,271 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:14:13] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:14:25,095 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:14:25,098 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:14:25,109 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:14:25] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:14:25,164 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:14:25] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:14:55,198 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:14:55,203 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:14:55,213 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:14:55] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:14:55,218 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:14:55] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:15:25,192 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:15:25,193 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:15:25,199 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:25] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:15:25,204 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:25] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:15:36,370 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:36,381 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:36] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838336340 HTTP/1.1" 200 -
+2025-10-19 07:15:38,396 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:38,429 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:38] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838338388 HTTP/1.1" 200 -
+2025-10-19 07:15:38,623 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:38,658 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:38] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838338611 HTTP/1.1" 200 -
+2025-10-19 07:15:38,795 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:38,826 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:38] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838338787 HTTP/1.1" 200 -
+2025-10-19 07:15:38,963 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:38,975 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:38] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838338956 HTTP/1.1" 200 -
+2025-10-19 07:15:39,149 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:39,179 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:39] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838339139 HTTP/1.1" 200 -
+2025-10-19 07:15:39,340 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:39,375 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:39] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838339331 HTTP/1.1" 200 -
+2025-10-19 07:15:39,532 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:39,547 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:39] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838339524 HTTP/1.1" 200 -
+2025-10-19 07:15:39,711 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:39,727 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:39] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838339700 HTTP/1.1" 200 -
+2025-10-19 07:15:39,894 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:15:39,913 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:39] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838339884 HTTP/1.1" 200 -
+2025-10-19 07:15:40,078 - flask-limiter - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: index
+2025-10-19 07:15:40,078 - app_saas - WARNING - Rate limit exceeded: 127.0.0.1
+2025-10-19 07:15:40,079 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:40] "[31m[1mGET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838340068 HTTP/1.1[0m" 429 -
+2025-10-19 07:15:40,292 - flask-limiter - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: index
+2025-10-19 07:15:40,293 - app_saas - WARNING - Rate limit exceeded: 127.0.0.1
+2025-10-19 07:15:40,295 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:40] "[31m[1mGET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838340236 HTTP/1.1[0m" 429 -
+2025-10-19 07:15:40,428 - flask-limiter - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: index
+2025-10-19 07:15:40,428 - app_saas - WARNING - Rate limit exceeded: 127.0.0.1
+2025-10-19 07:15:40,429 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:40] "[31m[1mGET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838340420 HTTP/1.1[0m" 429 -
+2025-10-19 07:15:40,703 - flask-limiter - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: index
+2025-10-19 07:15:40,704 - app_saas - WARNING - Rate limit exceeded: 127.0.0.1
+2025-10-19 07:15:40,705 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:40] "[31m[1mGET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838340676 HTTP/1.1[0m" 429 -
+2025-10-19 07:15:40,887 - flask-limiter - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: index
+2025-10-19 07:15:40,888 - app_saas - WARNING - Rate limit exceeded: 127.0.0.1
+2025-10-19 07:15:40,889 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:40] "[31m[1mGET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838340860 HTTP/1.1[0m" 429 -
+2025-10-19 07:15:41,063 - flask-limiter - INFO - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: index
+2025-10-19 07:15:41,064 - app_saas - WARNING - Rate limit exceeded: 127.0.0.1
+2025-10-19 07:15:41,065 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:41] "[31m[1mGET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838341036 HTTP/1.1[0m" 429 -
+2025-10-19 07:15:55,192 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:15:55,194 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:15:55,199 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:55] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:15:55,209 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:15:55] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:16:25,186 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:16:25,190 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:16:25,195 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:16:25] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:16:25,200 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:16:25] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:16:55,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:16:55,198 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:16:55,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:16:55] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:16:55,218 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:16:55] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:18:05,197 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:18:05,199 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:18:05,211 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:18:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:18:05,218 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:18:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:19:05,201 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:19:05,204 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:19:05,216 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:19:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:19:05,222 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:19:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:19:21,973 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-19 07:19:21,973 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:19:21,978 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:19:23,048 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:19:23,051 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:19:33,065 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:19:33,179 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:19:33] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760838573050 HTTP/1.1" 200 -
+2025-10-19 07:20:05,201 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:20:05,202 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:20:05,217 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:20:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:20:05,241 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:20:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:21:05,204 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:21:05,207 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:21:05,223 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:21:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:21:05,236 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:21:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:22:05,201 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:22:05,204 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:22:05,218 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:22:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:22:05,222 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:22:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:23:05,208 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:23:05,214 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:23:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:23:05,215 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:23:05,230 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:23:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:24:05,203 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:24:05,207 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:24:05,222 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:24:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:24:05,245 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:24:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:25:05,208 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:25:05,209 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:25:05,218 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:25:05,223 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:25:46,097 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:25:46,488 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:25:49,921 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:25:49,923 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:25:52,978 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:25:53,012 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:25:53,095 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:53] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:25:53,113 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:53] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:25:55,083 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:25:55,085 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:25:55,091 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:55] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:25:55,097 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:55] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:25:56,547 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:25:56,655 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:56] "GET / HTTP/1.1" 200 -
+2025-10-19 07:25:56,733 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:25:56,736 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:25:56,811 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:56] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-19 07:25:56,889 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:56] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-19 07:25:58,163 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:25:58,165 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:25:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:26:28,199 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:26:28,201 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:26:28,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:26:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:26:28,217 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:26:28] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:26:58,200 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:26:58,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:26:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:26:58,252 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:26:58,271 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:26:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:27:28,191 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:27:28,193 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:27:28,202 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:27:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:27:28,207 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:27:28] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:27:58,196 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:27:58,198 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:27:58,205 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:27:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:27:58,214 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:27:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:28:28,196 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:28:28,198 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:28:28,203 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:28:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:28:28,212 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:28:28] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:28:58,196 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:28:58,197 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:28:58,202 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:28:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:28:58,215 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:28:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:30:05,207 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:30:05,211 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:30:05,222 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:30:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:30:05,235 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:30:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:31:05,207 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:31:05,209 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:31:05,225 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:31:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:31:05,234 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:31:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:32:05,198 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:32:05,202 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:32:05,208 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:32:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:32:05,220 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:32:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:33:05,203 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:33:05,206 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:33:05,216 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:33:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:33:05,234 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:33:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:34:05,208 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:34:05,211 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:34:05,221 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:34:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:34:05,233 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:34:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:35:05,199 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:35:05,203 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:35:05,224 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:35:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:35:05,227 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:35:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:42:54,480 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-19 07:42:54,481 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 07:42:54,484 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:42:55,653 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:42:55,655 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:43:07,406 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:43:07,517 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:43:07] "GET /?id=febbe404-2ad1-4eb2-824f-f2504159d6aa&vscodeBrowserReqId=1760839987395 HTTP/1.1" 200 -
+2025-10-19 07:44:08,631 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:44:08,656 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:44:08] "GET / HTTP/1.1" 200 -
+2025-10-19 07:44:08,751 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:44:08,757 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:44:08,849 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:44:08] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:44:08,877 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:44:08] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-19 07:44:10,188 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:44:10,190 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:44:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:44:39,897 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:44:39,899 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:44:39,904 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:44:39] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:44:39,934 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:44:39] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:45:10,193 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:45:10,198 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:45:10,207 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:45:10] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:45:10,220 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:45:10] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:45:40,190 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:45:40,193 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:45:40,197 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:45:40] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:45:40,206 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:45:40] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:46:10,199 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:46:10,202 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:46:10,207 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:46:10] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:46:10,220 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:46:10] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:46:40,191 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:46:40,192 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:46:40,197 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:46:40] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:46:40,203 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:46:40] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:47:10,199 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:47:10,202 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:47:10,208 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:47:10] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:47:10,213 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:47:10] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:48:05,204 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:48:05,207 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:48:05,215 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:48:05,226 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:48:15,593 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:48:15,604 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:48:15,609 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:15] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:48:15,645 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:15] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:48:17,729 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:48:17,809 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:17] "GET / HTTP/1.1" 200 -
+2025-10-19 07:48:17,877 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:48:17,882 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:17] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:48:17,885 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:48:17,893 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:17] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:48:18,514 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:48:18,517 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:48:48,183 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:48:48,186 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:48:48,193 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:48] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:48:48,207 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:48:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:49:18,189 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:49:18,191 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:49:18,204 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:49:18] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:49:18,208 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:49:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:49:48,201 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:49:48,201 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:49:48,208 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:49:48] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:49:48,213 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:49:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:50:18,176 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:50:18,177 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:50:18,187 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:50:18] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:50:18,189 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:50:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:50:32,294 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:50:32,647 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:50:34,032 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:50:34,035 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:50:48,194 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:50:48,205 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:50:48,260 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:50:48] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:50:48,263 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:50:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:50:52,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:50:52,690 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:50:54,069 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:50:54,072 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:51:18,201 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:51:18,205 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:51:18,258 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:51:18] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:51:18,269 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:51:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:51:45,765 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:51:46,167 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:51:47,641 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:51:47,643 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:51:51,855 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:51:51,859 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:51:51,948 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:51:51] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:51:51,992 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:51:51] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:52:00,608 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:52:00,684 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:00] "GET / HTTP/1.1" 200 -
+2025-10-19 07:52:00,763 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:52:00,768 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:52:00,841 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:00] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:52:00,859 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:00] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:52:01,066 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:52:01,069 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:52:31,027 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:52:31,030 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:52:31,038 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:31] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:52:31,051 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:52:31] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:53:01,025 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:53:01,028 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:53:01,035 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:01] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:53:01,047 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:01] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:53:04,882 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 07:53:05,504 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 07:53:06,801 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 07:53:06,804 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 07:53:31,027 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 07:53:31,030 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 07:53:31,077 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:31] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 07:53:31,084 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:31] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 07:53:43,752 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 07:53:43,835 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:43] "GET /history HTTP/1.1" 200 -
+2025-10-19 07:53:43,907 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:53:43,912 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:53:43,986 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:43] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:53:43,994 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:43] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-19 07:53:44,488 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:53:44,490 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:53:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:54:02,187 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 07:54:02,273 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:02] "GET / HTTP/1.1" 200 -
+2025-10-19 07:54:02,413 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:54:02,417 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 07:54:02,421 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:02] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:54:02,426 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:02] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 07:54:02,845 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:54:02,848 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 07:54:03,335 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-19 07:54:03,393 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:03] "GET /pricing HTTP/1.1" 200 -
+2025-10-19 07:54:03,450 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 07:54:03,454 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:03] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 07:54:03,460 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-19 07:54:03,465 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-19 07:54:03,504 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:03] "[36mGET /static/pricing.css HTTP/1.1[0m" 304 -
+2025-10-19 07:54:03,568 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:03] "[36mGET /static/pricing.js HTTP/1.1[0m" 304 -
+2025-10-19 07:54:03,987 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 07:54:03,990 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 07:54:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:02:44,710 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 08:02:45,171 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:02:46,878 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:02:46,881 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:02:48,421 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 08:02:48,530 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:48] "GET / HTTP/1.1" 200 -
+2025-10-19 08:02:48,630 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:02:48,638 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:02:48,705 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:48] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-19 08:02:48,857 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:48] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 08:02:50,447 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:02:50,449 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:50] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:02:53,050 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 08:02:53,065 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:53] "GET /history HTTP/1.1" 200 -
+2025-10-19 08:02:53,110 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:02:53,113 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:02:53,118 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:53] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 08:02:53,120 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:53] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 08:02:53,443 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:02:53,444 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:02:58,145 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 08:02:58,152 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:58] "GET /history HTTP/1.1" 200 -
+2025-10-19 08:02:58,206 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:02:58,210 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:58] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 08:02:58,213 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:02:58,218 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:58] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 08:02:58,371 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:02:58,373 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:02:58] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:03:01,590 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:03:01,595 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:03:01] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:03:02,573 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:03:02,578 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:03:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:03:02,844 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:03:02,850 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:03:02] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:05:16,980 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 08:05:16,985 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:16] "GET /history HTTP/1.1" 200 -
+2025-10-19 08:05:17,029 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:05:17,032 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:05:17,034 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:17] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 08:05:17,038 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:17] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 08:05:17,497 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:05:17,499 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:05:27,602 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 08:05:27,610 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:27] "GET / HTTP/1.1" 200 -
+2025-10-19 08:05:27,655 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:05:27,662 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:27] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 08:05:27,665 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:05:27,668 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:27] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 08:05:28,031 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:05:28,032 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:05:57,790 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:05:57,792 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:05:57,796 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:57] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:05:57,808 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:05:57] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:06:28,190 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:06:28,192 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:06:28,197 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:06:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:06:28,205 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:06:28] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:06:58,192 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:06:58,194 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:06:58,198 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:06:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:06:58,203 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:06:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:07:28,190 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:07:28,191 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:07:28,196 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:07:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:07:28,198 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:07:28] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:07:54,994 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 08:07:55,414 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:07:56,814 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:07:56,816 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:07:58,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:07:58,197 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:07:58,231 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:07:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:07:58,242 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:07:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:08:28,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:08:28,196 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:08:28,201 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:08:28] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:08:28,204 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:08:28] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:09:05,195 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:09:05,196 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:09:05,203 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:09:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:09:05,207 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:09:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:09:54,166 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 08:09:54,405 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:09:55,587 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:09:55,590 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:09:58,604 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:09:58,609 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:09:58,645 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:09:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:09:58,646 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:09:58] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:10:02,552 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 08:10:02,610 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:02] "GET / HTTP/1.1" 200 -
+2025-10-19 08:10:02,654 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:10:02,660 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:10:02,731 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:02] "GET /static/styles_enhanced.css HTTP/1.1" 200 -
+2025-10-19 08:10:02,797 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:02] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-19 08:10:03,517 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:10:03,519 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:10:07,612 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 08:10:07,630 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:07] "GET /history HTTP/1.1" 200 -
+2025-10-19 08:10:07,669 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 08:10:07,673 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 08:10:07,676 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:07] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 08:10:07,678 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:07] "[36mGET /static/main_enhanced.js HTTP/1.1[0m" 304 -
+2025-10-19 08:10:07,822 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:10:07,824 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:10:26,500 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 08:10:26,502 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:26] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 08:10:33,409 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:10:33,412 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:10:33,422 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:33] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:10:33,432 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:33] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:10:35,229 - app_saas - INFO - POST /convert from 127.0.0.1
+2025-10-19 08:10:35,286 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 4, Size: 183623 bytes)
+2025-10-19 08:10:40,176 - app_saas - INFO - Conversion successful (ID: 4, Type: ocr, Rows: 41, Time: 4.88s, Confidence: 25.0%)
+2025-10-19 08:10:40,176 - app_saas - INFO - Quality Report: Low quality (25.0%) - Extraction may be unreliable - Complete rows: 0/64
+2025-10-19 08:10:40,189 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:40] "POST /convert HTTP/1.1" 200 -
+2025-10-19 08:10:41,211 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:10:41,214 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:10:41] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:11:03,396 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:11:03,398 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:11:03,403 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:11:03] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:11:03,407 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:11:03] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:11:22,683 - app_saas - INFO - POST /api/feedback from 127.0.0.1
+2025-10-19 08:11:22,685 - app_saas - INFO - FEEDBACK RECEIVED - Rating: 4/5, Email: , Text: 
+2025-10-19 08:11:22,685 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:11:22] "POST /api/feedback HTTP/1.1" 200 -
+2025-10-19 08:11:23,516 - app_saas - INFO - POST /api/feedback from 127.0.0.1
+2025-10-19 08:11:23,517 - app_saas - INFO - FEEDBACK RECEIVED - Rating: 4/5, Email: , Text: 
+2025-10-19 08:11:23,518 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:11:23] "POST /api/feedback HTTP/1.1" 200 -
+2025-10-19 08:11:33,393 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:11:33,395 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:11:33,400 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:11:33] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:11:33,408 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:11:33] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:12:04,184 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:12:04,186 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:12:04,190 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:12:04] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:12:04,196 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:12:04] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:12:34,199 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:12:34,201 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:12:34,205 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:12:34] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:12:34,211 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:12:34] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:12:39,566 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\models.py', reloading
+2025-10-19 08:12:39,776 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:12:40,930 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:12:40,932 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:12:54,104 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\models.py', reloading
+2025-10-19 08:12:54,294 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:12:55,292 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:12:55,295 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:12:59,364 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 08:12:59,557 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:13:00,593 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:13:00,596 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:13:04,187 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:13:04,188 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:13:04,220 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:13:04] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:13:04,221 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:13:04] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:13:13,767 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 08:13:13,950 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:13:14,984 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:13:14,987 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:13:50,411 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 08:13:50,585 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:13:51,578 - app_saas - INFO - Cleaned up old file: 9d3528745917425fbec59e54c050ec0a_dummy_statement.pdf
+2025-10-19 08:13:51,600 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:13:51,603 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 08:14:05,188 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 08:14:05,191 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 08:14:05,230 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:14:05] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 08:14:05,232 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 08:14:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 08:14:10,837 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\migrate_feedback.py', reloading
+2025-10-19 08:14:11,021 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 08:14:12,020 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 08:14:12,022 - werkzeug - INFO -  * Debugger PIN: 959-098-977
+2025-10-19 17:32:01,691 - app_saas - INFO - Cleaned up old file: cf9279f9d99c40379da9af944e8273c9_dummy_statement.pdf
+2025-10-19 17:32:01,839 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.73.18.30:5000
+2025-10-19 17:32:01,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-19 17:32:01,842 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 17:32:03,048 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 17:32:03,069 - werkzeug - INFO -  * Debugger PIN: 429-489-533
+2025-10-19 17:33:06,095 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 17:33:06,228 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:33:06] "GET / HTTP/1.1" 200 -
+2025-10-19 17:33:06,313 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 17:33:06,319 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 17:33:06,398 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:33:06] "[36mGET /static/styles_enhanced.css HTTP/1.1[0m" 304 -
+2025-10-19 17:33:06,513 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:33:06] "GET /static/main_enhanced.js HTTP/1.1" 200 -
+2025-10-19 17:33:07,933 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 17:33:07,936 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:33:07] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2025-10-19 17:33:37,974 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:33:37,978 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:33:38,005 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:33:38] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:33:38,010 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:33:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:34:07,981 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:34:07,982 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:34:07,989 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:34:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:34:07,996 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:34:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:34:37,980 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:34:37,986 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:34:37,989 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:34:37] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:34:38,004 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:34:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:35:07,979 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:35:07,982 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:35:07,986 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:35:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:35:07,996 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:35:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:35:37,983 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:35:37,986 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:35:37,994 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:35:37] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:35:38,006 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:35:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:36:07,971 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:36:07,973 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:36:07,980 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:36:07] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:36:07,985 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:36:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:36:38,875 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\config_production.py', reloading
+2025-10-19 17:36:39,241 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 17:36:40,646 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 17:36:40,648 - werkzeug - INFO -  * Debugger PIN: 429-489-533
+2025-10-19 17:36:50,819 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\gunicorn_config.py', reloading
+2025-10-19 17:36:51,141 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 17:36:52,519 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 17:36:52,521 - werkzeug - INFO -  * Debugger PIN: 429-489-533
+2025-10-19 17:37:23,983 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:37:23,986 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:37:24,027 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:37:24] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:37:24,074 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:37:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:38:08,765 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 17:38:09,240 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 17:38:10,540 - werkzeug - WARNING -  * Debugger is active!
+2025-10-19 17:38:10,542 - werkzeug - INFO -  * Debugger PIN: 429-489-533
+2025-10-19 17:38:23,972 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:38:23,975 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:38:24,029 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:38:24] "GET /api/history?limit=20 HTTP/1.1" 200 -
+2025-10-19 17:38:24,032 - werkzeug - INFO - 127.0.0.1 - - [19/Oct/2025 17:38:24] "GET /api/stats HTTP/1.1" 200 -
+2025-10-19 17:39:00,315 - werkzeug - INFO -  * Detected change in 'C:\\Users\\gadip\\OneDrive\\Documents\\MERN\\bankstatement converter\\app_saas.py', reloading
+2025-10-19 17:39:00,944 - werkzeug - INFO -  * Restarting with stat
+2025-10-19 17:44:22,779 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-19 17:44:23,979 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:44:23,981 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:45:23,978 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:45:24,004 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:45:35,934 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 17:45:36,041 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 17:45:36,043 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 17:45:36,671 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 17:46:06,976 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:46:06,979 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:46:36,971 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:46:36,973 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:47:06,977 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:47:06,977 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:47:36,972 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:47:36,975 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:48:06,972 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:48:06,974 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:48:36,972 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:48:36,972 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:49:23,980 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:49:23,982 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:50:23,973 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:50:23,974 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:51:23,983 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:51:23,985 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:52:23,985 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:52:23,987 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:53:23,982 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:53:23,984 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:54:23,975 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:54:23,983 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:55:23,973 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:55:23,975 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:56:23,978 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:56:23,980 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:57:23,976 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:57:23,977 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:58:23,973 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:58:23,977 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 17:59:23,980 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 17:59:23,981 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:00:23,983 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:00:23,985 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:01:16,926 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:01:16,928 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:01:19,284 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:01:19,371 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:01:19,373 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:01:20,283 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:01:50,041 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:01:50,042 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:02:20,984 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:02:20,985 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:02:50,969 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:02:50,977 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:03:20,979 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:03:20,980 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:03:50,990 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:03:50,991 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:04:20,967 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:04:20,968 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:04:20,972 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:05:23,982 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:05:23,984 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:06:23,984 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:06:23,985 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:06:54,503 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:06:54,506 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:06:56,802 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:06:56,939 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:06:56,941 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:06:58,045 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:07:27,621 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:07:27,622 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:07:34,475 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-19 18:07:34,593 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:07:34,596 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-19 18:07:34,600 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-19 18:07:35,390 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:18:31,158 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-19 18:19:11,019 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:19:11,308 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:19:11,325 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:19:13,278 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:19:18,355 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-19 18:19:18,474 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:19:18,476 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-19 18:19:18,484 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-19 18:19:18,760 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:26:13,848 - waitress - INFO - Serving on http://0.0.0.0:5000
+2025-10-19 18:26:33,867 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-19 18:26:33,979 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:26:33,983 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-19 18:26:33,986 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-19 18:26:35,081 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:27:14,861 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:27:15,064 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:27:15,265 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:27:17,337 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:27:22,439 - app_saas - INFO - GET /pricing from 127.0.0.1
+2025-10-19 18:27:22,497 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:27:22,501 - app_saas - INFO - GET /static/pricing.css from 127.0.0.1
+2025-10-19 18:27:22,509 - app_saas - INFO - GET /static/pricing.js from 127.0.0.1
+2025-10-19 18:27:22,848 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:28:48,545 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:28:48,659 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:28:48,664 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:28:49,103 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:29:02,198 - app_saas - INFO - POST /convert from 127.0.0.1
+2025-10-19 18:29:02,312 - app_saas - INFO - Processing file: dummy_statement.pdf (ID: 5, Size: 183623 bytes)
+2025-10-19 18:29:08,209 - app_saas - INFO - Conversion successful (ID: 5, Type: ocr, Rows: 41, Time: 5.88s, Confidence: 25.0%)
+2025-10-19 18:29:08,209 - app_saas - INFO - Quality Report: Low quality (25.0%) - Extraction may be unreliable - Complete rows: 0/64
+2025-10-19 18:29:09,246 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:29:19,010 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:29:19,014 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:29:49,030 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:29:49,033 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:30:19,025 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:30:19,026 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:30:49,969 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:30:49,969 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:31:19,014 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:31:19,016 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:31:49,968 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:31:49,969 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:32:19,970 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:32:19,970 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:33:23,967 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:33:23,968 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:34:23,972 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:34:23,972 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:35:23,969 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:35:23,970 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:36:23,980 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:36:23,981 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:37:23,973 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:37:23,974 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:38:23,981 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:38:23,982 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:38:49,024 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:38:49,026 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:38:49,030 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:39:19,969 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:39:19,971 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:39:49,968 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:39:49,969 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:40:23,982 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:40:23,984 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:41:23,981 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:41:23,983 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:42:07,934 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:42:08,141 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:42:08,177 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:42:10,114 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:42:23,973 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:42:23,974 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:42:30,827 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 18:42:30,938 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:42:30,945 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:42:32,008 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:42:36,146 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 18:42:36,211 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:42:36,222 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:42:36,654 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:42:41,003 - app_saas - INFO - DELETE /api/delete/3 from 127.0.0.1
+2025-10-19 18:42:41,030 - app_saas - INFO - Conversion 3 deleted by user 48
+2025-10-19 18:42:41,048 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:42:46,853 - app_saas - INFO - DELETE /api/delete/4 from 127.0.0.1
+2025-10-19 18:42:46,936 - app_saas - INFO - Conversion 4 deleted by user 48
+2025-10-19 18:42:46,966 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:42:54,477 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:42:54,580 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:42:54,584 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:42:54,918 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:42:56,439 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:42:56,515 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:42:56,517 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:42:56,700 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:42:57,926 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 18:42:58,003 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:42:58,012 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:42:58,221 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:43:00,527 - app_saas - INFO - GET /history from 127.0.0.1
+2025-10-19 18:43:00,608 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:43:00,609 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:43:00,974 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:43:04,648 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:43:23,986 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:43:23,987 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:43:26,667 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:43:26,668 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:43:26,673 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:43:56,666 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:43:56,666 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:44:23,971 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:44:23,974 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:44:23,976 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:44:26,666 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:44:26,667 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:44:56,670 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:44:56,671 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:45:23,967 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:45:23,969 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:45:23,972 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:45:26,670 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:45:26,671 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:45:56,678 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:45:56,680 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:46:23,978 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:46:23,979 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:46:23,982 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:46:26,966 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:46:26,975 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:46:56,982 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:46:56,986 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:47:23,980 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:47:23,981 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:47:23,984 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:48:23,985 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:48:23,987 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:48:24,003 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:48:24,011 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:48:24,016 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:49:24,069 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:49:24,071 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:49:24,089 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:49:24,121 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:49:24,123 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:50:23,986 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:50:23,988 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:50:24,005 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:50:24,020 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:50:24,024 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-19 18:51:18,225 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:51:18,227 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:51:20,725 - app_saas - INFO - GET / from 127.0.0.1
+2025-10-19 18:51:20,829 - app_saas - INFO - GET /static/styles_enhanced.css from 127.0.0.1
+2025-10-19 18:51:20,831 - app_saas - INFO - GET /static/main_enhanced.js from 127.0.0.1
+2025-10-19 18:51:21,674 - app_saas - INFO - GET /favicon.ico from 127.0.0.1
+2025-10-19 18:51:23,969 - app_saas - INFO - GET /api/history from 127.0.0.1
+2025-10-19 18:51:23,978 - app_saas - INFO - GET /api/stats from 127.0.0.1
+2025-10-19 18:51:23,981 - flask_caching - INFO - Cache used for key: view//api/stats
