@@ -1366,3 +1366,6 @@ UnicodeEncodeError: 'latin-1' codec can't encode character '\u274c' in position 
 2025-10-19 18:51:23,969 - app_saas - INFO - GET /api/history from 127.0.0.1
 2025-10-19 18:51:23,978 - app_saas - INFO - GET /api/stats from 127.0.0.1
 2025-10-19 18:51:23,981 - flask_caching - INFO - Cache used for key: view//api/stats
+2025-10-22 10:03:08,332 - app_bankstatement_saas - INFO - Database initialized
+2025-10-22 10:03:20,518 - app_bankstatement_saas - INFO - Database initialized
+2025-10-22 10:08:51,140 - app_bankstatement_saas - INFO - Database initialized

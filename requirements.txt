@@ -10,19 +10,34 @@ Flask-Limiter==3.3.1
 werkzeug==3.1.3
 python-dotenv==1.0.0
 
-# Production Performance - CRITICAL FOR MILLIONS OF USERS
-gevent==23.9.1                  # Async workers (2000 connections per worker)
-redis==5.0.1                    # Caching layer (100K ops/sec)
-Flask-Caching==2.1.0            # Response caching middleware
+# Authentication and Security
+Flask-Login==0.6.3              # User session management
+Flask-Bcrypt==1.0.1             # Password hashing
+email-validator==2.1.0          # Email validation
+
+# Payment Processing
+stripe==7.8.0                   # Stripe payment integration
+
+# Multi-format Support
+pandas==2.1.4                   # CSV/Excel processing
+openpyxl==3.1.2                 # Excel file support
+ofxparse==0.21                  # OFX file parsing
+chardet==5.2.0                  # Character encoding detection
+
+# Production Performance
+gevent==23.9.1                  # Async workers
+redis==5.0.1                    # Caching layer
+Flask-Caching==2.1.0            # Response caching
 celery==5.3.4                   # Background task processing
 psycopg2-binary==2.9.9          # PostgreSQL driver
 
 # Monitoring & Error Tracking
-sentry-sdk[flask]==1.39.2       # Error tracking and performance monitoring
+sentry-sdk[flask]==1.39.2       # Error tracking
 
 # Response Compression
-Flask-Compress==1.14            # Gzip compression (80% bandwidth reduction)
+Flask-Compress==1.14            # Gzip compression
 
-# Additional Performance Tools
-eventlet==0.33.3                # Alternative async library
-greenlet==3.0.1                 # Lightweight concurrent programming
+# Additional Tools
+eventlet==0.33.3                # Async library
+greenlet==3.0.1                 # Concurrent programming
+python-dateutil==2.8.2          # Date parsingight concurrent programming

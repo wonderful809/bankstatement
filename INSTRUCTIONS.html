@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Start BankStatementAI SaaS</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #2563EB;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #1E293B;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #2563EB;
+            padding-left: 15px;
+        }
+        .alert {
+            background: #FEF3C7;
+            border-left: 4px solid #F59E0B;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .alert-error {
+            background: #FEE2E2;
+            border-left-color: #EF4444;
+        }
+        .alert-success {
+            background: #D1FAE5;
+            border-left-color: #059669;
+        }
+        .code {
+            background: #1E293B;
+            color: #10B981;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+        }
+        .steps li {
+            counter-increment: step-counter;
+            margin: 20px 0;
+            padding-left: 60px;
+            position: relative;
+        }
+        .steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #2563EB;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .credential-box {
+            background: #F8FAFC;
+            border: 2px solid #2563EB;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .credential-box strong {
+            color: #2563EB;
+        }
+        button {
+            background: #2563EB;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #1D4ED8;
+        }
+        .check-button {
+            background: #059669;
+        }
+        .check-button:hover {
+            background: #047857;
+        }
+        #status {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 BankStatementAI SaaS Platform</h1>
+        <p style="color: #6B7280; font-size: 18px; margin-bottom: 30px;">
+            Setup & Preview Instructions
+        </p>
+
+        <div class="alert alert-error">
+            <h3 style="margin-bottom: 10px;">⚠️ Connection Refused Error?</h3>
+            <p>This means <strong>the Flask server is not running yet</strong>. You need to start it first!</p>
+        </div>
+
+        <h2>📋 Quick Start Steps</h2>
+
+        <ol class="steps">
+            <li>
+                <strong>Open a Terminal/Command Prompt</strong><br>
+                <small style="color: #6B7280;">On your computer, open Terminal (Mac/Linux) or Command Prompt (Windows)</small>
+            </li>
+            <li>
+                <strong>Navigate to the workspace directory</strong><br>
+                <div class="code">cd /workspace</div>
+            </li>
+            <li>
+                <strong>Start the Flask server</strong><br>
+                <div class="code">python3 RUN_SERVER.py</div>
+                <small style="color: #6B7280;">Alternative: <code>python3 app_bankstatement_saas.py</code></small>
+            </li>
+            <li>
+                <strong>Wait for the server to start</strong><br>
+                <small style="color: #6B7280;">You should see: "Running on http://0.0.0.0:5000"</small>
+            </li>
+            <li>
+                <strong>Open your browser and visit</strong><br>
+                <div class="code">http://localhost:5000</div>
+                <button onclick="window.open('http://localhost:5000', '_blank')">
+                    Open Now →
+                </button>
+                <button class="check-button" onclick="checkServer()">
+                    Check if Server is Running
+                </button>
+            </li>
+        </ol>
+
+        <div id="status"></div>
+
+        <h2>👤 Demo Login Credentials</h2>
+        
+        <div class="credential-box">
+            <p><strong>Email:</strong> demo@example.com</p>
+            <p><strong>Password:</strong> demo123</p>
+            <p><strong>Subscription:</strong> Professional (2000 pages/month)</p>
+        </div>
+
+        <div class="alert alert-success">
+            <h3 style="margin-bottom: 10px;">✅ Once Server is Running</h3>
+            <p>You'll be able to:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>View the beautiful landing page</li>
+                <li>Check the pricing page with custom slider</li>
+                <li>Login to the dashboard</li>
+                <li>Upload and convert bank statements</li>
+                <li>See conversion history and statistics</li>
+            </ul>
+        </div>
+
+        <h2>🐛 Troubleshooting</h2>
+
+        <h3 style="color: #1E293B; margin-top: 20px; font-size: 18px;">
+            "Port 5000 already in use"
+        </h3>
+        <p style="margin: 10px 0;">
+            Run this to kill existing process:
+        </p>
+        <div class="code">
+# Linux/Mac<br>
+lsof -ti:5000 | xargs kill -9<br>
+<br>
+# Or use a different port<br>
+export FLASK_PORT=5001<br>
+python3 app_bankstatement_saas.py
+        </div>
+
+        <h3 style="color: #1E293B; margin-top: 20px; font-size: 18px;">
+            "Module not found"
+        </h3>
+        <p style="margin: 10px 0;">
+            Install dependencies:
+        </p>
+        <div class="code">pip install -r requirements.txt</div>
+
+        <h2>📚 Documentation</h2>
+        <p style="margin: 15px 0;">
+            For detailed information, check these files in your workspace:
+        </p>
+        <ul style="margin-left: 30px; line-height: 2;">
+            <li><strong>HOW_TO_START.md</strong> - Detailed startup guide</li>
+            <li><strong>PREVIEW_READY.md</strong> - Complete preview instructions</li>
+            <li><strong>QUICK_START_SAAS.md</strong> - 5-minute setup guide</li>
+            <li><strong>README_SAAS.md</strong> - Full documentation</li>
+        </ul>
+
+        <h2>🎯 What to Expect</h2>
+        <p style="margin: 15px 0; line-height: 1.8;">
+            This is a <strong>complete SaaS platform</strong> with user authentication, 
+            Stripe payment integration (demo mode), multi-format file conversion 
+            (PDF, CSV, Excel, OFX), beautiful modern UI with your exact color scheme, 
+            and professional dashboard with analytics.
+        </p>
+
+        <div style="margin-top: 40px; padding: 20px; background: #F8FAFC; border-radius: 8px; text-align: center;">
+            <p style="color: #6B7280; margin-bottom: 15px;">
+                <strong>Remember:</strong> The server must be running for the website to work!
+            </p>
+            <button onclick="window.open('http://localhost:5000', '_blank')" style="font-size: 18px; padding: 18px 40px;">
+                🚀 Try Opening the Website Now
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function checkServer() {
+            const statusDiv = document.getElementById('status');
+            statusDiv.style.display = 'block';
+            statusDiv.className = 'alert';
+            statusDiv.innerHTML = '⏳ Checking server...';
+            
+            fetch('http://localhost:5000/')
+                .then(response => {
+                    if (response.ok) {
+                        statusDiv.className = 'alert alert-success';
+                        statusDiv.innerHTML = `
+                            <h3 style="margin-bottom: 10px;">✅ Server is Running!</h3>
+                            <p>The server is running successfully at http://localhost:5000</p>
+                            <button onclick="window.open('http://localhost:5000', '_blank')" style="margin-top: 10px;">
+                                Open Website Now →
+                            </button>
+                        `;
+                    } else {
+                        throw new Error('Server responded but with error');
+                    }
+                })
+                .catch(error => {
+                    statusDiv.className = 'alert alert-error';
+                    statusDiv.innerHTML = `
+                        <h3 style="margin-bottom: 10px;">❌ Server is NOT Running</h3>
+                        <p>Please follow the steps above to start the server first.</p>
+                        <p style="margin-top: 10px;">Run this command in terminal:</p>
+                        <div class="code" style="margin-top: 10px;">python3 RUN_SERVER.py</div>
+                    `;
+                });
+        }
+
+        // Auto-check on page load
+        setTimeout(checkServer, 1000);
+    </script>
+</body>
+</html>
