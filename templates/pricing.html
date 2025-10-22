@@ -1,0 +1,340 @@
+{% extends "base.html" %}
+
+{% block title %}Pricing - BankStatementAI{% endblock %}
+
+{% block content %}
+<div class="pricing-page">
+    <div class="container">
+        <!-- Header -->
+        <div class="pricing-header">
+            <h1>Choose Your Plan</h1>
+            <p>Flexible pricing for individuals and businesses</p>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing-grid">
+            <!-- Starter Plan -->
+            <div class="pricing-card">
+                <div class="pricing-header-card">
+                    <h3>Starter</h3>
+                    <p class="text-muted">Perfect for individuals</p>
+                </div>
+                <div class="pricing-price">
+                    <span class="price">$15</span>
+                    <span class="period">/ month</span>
+                </div>
+                <ul class="pricing-features">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        500 pages / month
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        All file formats (PDF, CSV, Excel, OFX)
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        AI-powered extraction
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Auto-categorization
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Email support
+                    </li>
+                </ul>
+                <button class="btn-primary btn-block" onclick="selectPlan('starter', '{{ pricing_tiers.starter.price_id }}')">
+                    {% if current_user.is_authenticated and current_user.subscription_tier == 'starter' %}
+                        Current Plan
+                    {% else %}
+                        Choose Starter
+                    {% endif %}
+                </button>
+            </div>
+
+            <!-- Professional Plan (Popular) -->
+            <div class="pricing-card pricing-card-popular">
+                <div class="popular-badge">Most Popular</div>
+                <div class="pricing-header-card">
+                    <h3>Professional</h3>
+                    <p class="text-muted">For small businesses</p>
+                </div>
+                <div class="pricing-price">
+                    <span class="price">$30</span>
+                    <span class="period">/ month</span>
+                </div>
+                <ul class="pricing-features">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        2,000 pages / month
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        All Starter features
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Priority processing
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Advanced analytics
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Priority support
+                    </li>
+                </ul>
+                <button class="btn-primary btn-block" onclick="selectPlan('professional', '{{ pricing_tiers.professional.price_id }}')">
+                    {% if current_user.is_authenticated and current_user.subscription_tier == 'professional' %}
+                        Current Plan
+                    {% else %}
+                        Choose Professional
+                    {% endif %}
+                </button>
+            </div>
+
+            <!-- Business Plan -->
+            <div class="pricing-card">
+                <div class="pricing-header-card">
+                    <h3>Business</h3>
+                    <p class="text-muted">For growing companies</p>
+                </div>
+                <div class="pricing-price">
+                    <span class="price">$50</span>
+                    <span class="period">/ month</span>
+                </div>
+                <ul class="pricing-features">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        5,000 pages / month
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        All Professional features
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        API access
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Batch processing
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        Dedicated support
+                    </li>
+                </ul>
+                <button class="btn-primary btn-block" onclick="selectPlan('business', '{{ pricing_tiers.business.price_id }}')">
+                    {% if current_user.is_authenticated and current_user.subscription_tier == 'business' %}
+                        Current Plan
+                    {% else %}
+                        Choose Business
+                    {% endif %}
+                </button>
+            </div>
+        </div>
+
+        <!-- Custom Pricing Slider -->
+        <div class="custom-pricing-section">
+            <div class="card">
+                <h2>Need a Custom Plan?</h2>
+                <p class="text-muted">Build your perfect plan with our custom pricing slider</p>
+                
+                <div class="slider-container">
+                    <label>Monthly Budget: <strong id="budgetDisplay">$50</strong></label>
+                    <input type="range" id="budgetSlider" min="15" max="300" value="50" step="5" class="custom-slider">
+                    <div class="slider-labels">
+                        <span>$15</span>
+                        <span>$300</span>
+                    </div>
+                </div>
+
+                <div class="custom-plan-details">
+                    <div class="custom-plan-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                        <div>
+                            <strong id="pagesDisplay">5,000</strong> pages/month
+                        </div>
+                    </div>
+                    <div class="custom-plan-feature">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        <div>All premium features included</div>
+                    </div>
+                </div>
+
+                <button class="btn-primary btn-block" onclick="selectCustomPlan()">Choose Custom Plan</button>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="pricing-faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Can I change my plan later?</h3>
+                    <p>Yes! You can upgrade or downgrade your plan at any time. Changes take effect at the next billing cycle.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What payment methods do you accept?</h3>
+                    <p>We accept all major credit cards through Stripe. All payments are secure and encrypted.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do unused pages roll over?</h3>
+                    <p>Pages reset monthly and don't roll over. We recommend choosing a plan that matches your monthly usage.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is there a free trial?</h3>
+                    <p>Yes! All new users get 50 free pages per month on the Free plan. No credit card required.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+const stripe = Stripe('{{ stripe_public_key }}');
+
+// Custom plan slider
+const budgetSlider = document.getElementById('budgetSlider');
+const budgetDisplay = document.getElementById('budgetDisplay');
+const pagesDisplay = document.getElementById('pagesDisplay');
+
+budgetSlider.addEventListener('input', function() {
+    const amount = parseInt(this.value);
+    budgetDisplay.textContent = '$' + amount;
+    
+    // Calculate pages (roughly $0.01 per page, with volume discounts)
+    let pages;
+    if (amount <= 15) pages = 500;
+    else if (amount <= 30) pages = Math.floor(amount * 66.67); // ~2000 pages at $30
+    else if (amount <= 50) pages = Math.floor(amount * 100); // ~5000 pages at $50
+    else pages = Math.floor(amount * 120); // Volume discount for higher amounts
+    
+    pagesDisplay.textContent = pages.toLocaleString();
+});
+
+function selectPlan(tier, priceId) {
+    {% if not current_user.is_authenticated %}
+        window.location.href = '{{ url_for("login") }}?next={{ url_for("pricing") }}';
+        return;
+    {% endif %}
+
+    if (!priceId) {
+        alert('This pricing tier is not yet configured. Please contact support.');
+        return;
+    }
+
+    fetch('{{ url_for("create_checkout_session") }}', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            price_id: priceId,
+            tier: tier
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            alert('Error: ' + data.error);
+            return;
+        }
+        return stripe.redirectToCheckout({ sessionId: data.sessionId });
+    })
+    .then(result => {
+        if (result && result.error) {
+            alert(result.error.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+    });
+}
+
+function selectCustomPlan() {
+    {% if not current_user.is_authenticated %}
+        window.location.href = '{{ url_for("login") }}?next={{ url_for("pricing") }}';
+        return;
+    {% endif %}
+
+    const amount = parseInt(budgetSlider.value);
+    const pages = parseInt(pagesDisplay.textContent.replace(/,/g, ''));
+
+    fetch('{{ url_for("create_custom_checkout") }}', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            amount: amount,
+            pages: pages
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            alert('Error: ' + data.error);
+            return;
+        }
+        return stripe.redirectToCheckout({ sessionId: data.sessionId });
+    })
+    .then(result => {
+        if (result && result.error) {
+            alert(result.error.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred. Please try again.');
+    });
+}
+</script>
+{% endblock %}

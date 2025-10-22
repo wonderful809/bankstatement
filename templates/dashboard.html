@@ -1,0 +1,287 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - BankStatementAI{% endblock %}
+
+{% block content %}
+<div class="dashboard">
+    <div class="container">
+        <!-- Dashboard Header -->
+        <div class="dashboard-header">
+            <div>
+                <h1>Welcome back, {{ current_user.full_name or current_user.email }}!</h1>
+                <p class="text-muted">Manage your conversions and track your usage</p>
+            </div>
+            <div class="subscription-badge">
+                <span class="badge badge-{{ 'primary' if stats.subscription_tier != 'Free' else 'secondary' }}">
+                    {{ stats.subscription_tier }} Plan
+                </span>
+            </div>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon" style="background: linear-gradient(135deg, #2563EB 0%, #3B82F6 100%);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-value">{{ stats.total_conversions }}</div>
+                    <div class="stat-label">Total Conversions</div>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon" style="background: linear-gradient(135deg, #059669 0%, #10B981 100%);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
+                        <polyline points="13 2 13 9 20 9"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-value">{{ stats.total_pages }}</div>
+                    <div class="stat-label">Pages Processed</div>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon" style="background: linear-gradient(135deg, #7C3AED 0%, #A855F7 100%);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-value">{{ stats.pages_remaining }}/{{ stats.pages_limit }}</div>
+                    <div class="stat-label">Pages Remaining</div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: {{ (stats.pages_remaining / stats.pages_limit * 100) }}%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon" style="background: linear-gradient(135deg, #F59E0B 0%, #F97316 100%);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                        <polyline points="17 6 23 6 23 12"/>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-value">
+                        {% if stats.subscription_tier != 'Free' %}Active{% else %}Free{% endif %}
+                    </div>
+                    <div class="stat-label">Subscription Status</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Upload Section -->
+        <div class="upload-section card">
+            <h2>Convert New Statement</h2>
+            <p class="text-muted">Supported formats: PDF, CSV, Excel (XLSX/XLS), OFX</p>
+            
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="upload-area" id="uploadArea">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="17 8 12 3 7 8"/>
+                        <line x1="12" y1="3" x2="12" y2="15"/>
+                    </svg>
+                    <p><strong>Click to upload</strong> or drag and drop</p>
+                    <p class="text-muted">PDF, CSV, XLSX, XLS, OFX (Max 16MB)</p>
+                    <input type="file" id="fileInput" name="file" accept=".pdf,.csv,.xlsx,.xls,.ofx,.qfx" hidden>
+                </div>
+                
+                <div id="uploadProgress" class="upload-progress" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressBar"></div>
+                    </div>
+                    <p id="progressText">Uploading...</p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Recent Conversions -->
+        <div class="conversions-section">
+            <div class="section-header-inline">
+                <h2>Recent Conversions</h2>
+                <button onclick="refreshHistory()" class="btn-secondary">Refresh</button>
+            </div>
+
+            <div class="conversions-table-container">
+                {% if conversions %}
+                <table class="conversions-table">
+                    <thead>
+                        <tr>
+                            <th>Filename</th>
+                            <th>Format</th>
+                            <th>Pages</th>
+                            <th>Rows</th>
+                            <th>Quality</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for conv in conversions %}
+                        <tr>
+                            <td><strong>{{ conv.original_filename }}</strong></td>
+                            <td><span class="badge badge-secondary">{{ conv.file_format or 'PDF' }}</span></td>
+                            <td>{{ conv.page_count or 1 }}</td>
+                            <td>{{ conv.row_count or '-' }}</td>
+                            <td>
+                                {% if conv.quality_score %}
+                                    <span class="quality-badge quality-{{ 'high' if conv.quality_score >= 80 else ('medium' if conv.quality_score >= 60 else 'low') }}">
+                                        {{ conv.quality_score|int }}%
+                                    </span>
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                            <td>
+                                <span class="status-badge status-{{ conv.status }}">
+                                    {{ conv.status }}
+                                </span>
+                            </td>
+                            <td class="text-muted">{{ conv.created_at.strftime('%b %d, %Y') }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% else %}
+                <div class="empty-state">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                    </svg>
+                    <h3>No conversions yet</h3>
+                    <p>Upload your first bank statement to get started</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        {% if stats.pages_remaining < 50 %}
+        <!-- Upgrade CTA -->
+        <div class="upgrade-cta card">
+            <div class="upgrade-content">
+                <h3>Running low on pages?</h3>
+                <p>Upgrade your plan to get more pages and features</p>
+                <a href="{{ url_for('pricing') }}" class="btn-primary">View Plans</a>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+const uploadArea = document.getElementById('uploadArea');
+const fileInput = document.getElementById('fileInput');
+const uploadForm = document.getElementById('uploadForm');
+const uploadProgress = document.getElementById('uploadProgress');
+const progressBar = document.getElementById('progressBar');
+const progressText = document.getElementById('progressText');
+
+// Click to upload
+uploadArea.addEventListener('click', () => fileInput.click());
+
+// Drag and drop
+uploadArea.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    uploadArea.classList.add('drag-over');
+});
+
+uploadArea.addEventListener('dragleave', () => {
+    uploadArea.classList.remove('drag-over');
+});
+
+uploadArea.addEventListener('drop', (e) => {
+    e.preventDefault();
+    uploadArea.classList.remove('drag-over');
+    if (e.dataTransfer.files.length) {
+        fileInput.files = e.dataTransfer.files;
+        handleUpload();
+    }
+});
+
+fileInput.addEventListener('change', handleUpload);
+
+function handleUpload() {
+    const file = fileInput.files[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    uploadArea.style.display = 'none';
+    uploadProgress.style.display = 'block';
+
+    fetch('{{ url_for("convert") }}', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        if (response.ok) {
+            return response.blob();
+        }
+        return response.json().then(data => {
+            throw new Error(data.error || 'Conversion failed');
+        });
+    })
+    .then(blob => {
+        // Download the file
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = file.name.replace(/\.[^/.]+$/, '') + '.csv';
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+
+        // Show success
+        showMessage('Conversion successful! Your CSV is downloading.', 'success');
+        resetUpload();
+        setTimeout(refreshHistory, 1000);
+    })
+    .catch(error => {
+        showMessage(error.message, 'error');
+        resetUpload();
+    });
+}
+
+function resetUpload() {
+    fileInput.value = '';
+    uploadArea.style.display = 'flex';
+    uploadProgress.style.display = 'none';
+}
+
+function refreshHistory() {
+    location.reload();
+}
+
+function showMessage(message, type) {
+    const alert = document.createElement('div');
+    alert.className = `alert alert-${type}`;
+    alert.innerHTML = `
+        <span>${message}</span>
+        <button onclick="this.parentElement.remove()" class="alert-close">&times;</button>
+    `;
+    
+    let container = document.querySelector('.flash-messages');
+    if (!container) {
+        container = document.createElement('div');
+        container.className = 'flash-messages';
+        document.querySelector('main').prepend(container);
+    }
+    container.appendChild(alert);
+    
+    setTimeout(() => alert.remove(), 5000);
+}
+</script>
+{% endblock %}

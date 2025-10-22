@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Payment Successful - BankStatementAI{% endblock %}
+
+{% block content %}
+<div class="success-page">
+    <div class="container">
+        <div class="success-card">
+            <div class="success-icon">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+            </div>
+            
+            <h1>Payment Successful!</h1>
+            <p class="success-message">Your subscription has been activated. Welcome aboard!</p>
+            
+            <div class="success-actions">
+                <a href="{{ url_for('dashboard') }}" class="btn-primary btn-large">Go to Dashboard</a>
+                <a href="{{ url_for('pricing') }}" class="btn-secondary">View Your Plan</a>
+            </div>
+            
+            <div class="success-details">
+                <h3>What's Next?</h3>
+                <ul>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        <span>Start converting bank statements immediately</span>
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        <span>Access all premium features</span>
+                    </li>
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2">
+                            <polyline points="20 6 9 17 4 12"/>
+                        </svg>
+                        <span>Check your email for the receipt</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
