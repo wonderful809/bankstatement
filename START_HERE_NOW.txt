@@ -1,0 +1,56 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║     ⚠️  CONNECTION REFUSED - SERVER NOT RUNNING ⚠️       ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+The website isn't accessible because the Flask server hasn't been started yet!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 TO START THE SERVER (DO THIS FIRST):
+
+1. Open a Terminal/Command Prompt
+
+2. Navigate to the workspace:
+   cd /workspace
+
+3. Run this command:
+   python3 RUN_SERVER.py
+   
+   OR
+   
+   python3 app_bankstatement_saas.py
+
+4. Wait until you see:
+   "Running on http://0.0.0.0:5000"
+
+5. THEN open your browser and go to:
+   http://localhost:5000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 DETAILED INSTRUCTIONS:
+
+See file: HOW_TO_START.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👤 DEMO LOGIN (After server is running):
+
+Email: demo@example.com
+Password: demo123
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ QUICK START COMMANDS:
+
+cd /workspace
+python3 RUN_SERVER.py
+
+Then visit: http://localhost:5000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Need help? Read: HOW_TO_START.md or PREVIEW_READY.md
+
